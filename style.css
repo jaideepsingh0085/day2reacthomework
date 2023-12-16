@@ -13,22 +13,22 @@
     align-items: center;
 }
 
-.content {
+.content-file {
     width: 100%;
     max-width: 700px;
     border: 2px solid black;
     padding: 32px 16px;
 }
-.heading {
+.header {
     margin-bottom: 32px;
 }
 
-.heading h1 {
+.header>h1 {
     font-size: 40px;
     margin-bottom: 16px;
 }
 
-.heading p {
+.header>p {
     font-size: 19.2px;
 }
 
@@ -37,11 +37,11 @@
     flex-direction: column;
     gap: 28.8px;
 }
-.topics dt {
+.topics>dt {
     font-size: 17.6px;
     font-weight: 600;
 }
-.topics dd {
+.topics>dd {
     font-size: 19.2px;
     margin-left: 16px;
 }
